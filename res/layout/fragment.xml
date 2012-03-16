@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mypackage.SceneManager.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#000000">
+    
+    <!--  Thị trường -->
+    <Button
+        android:id="@+id/market"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/market"
+        android:text="Thị trường" />
+ 
+    <!--  Theo dõi -->
+    <Button
+        android:id="@+id/follow"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/follow"
+        android:text="Theo dõi" />
+
+	
+	
+    <!--  Thêm theo dõi -->
+    <Button
+        android:id="@+id/add_follow"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/add_follow"
+        android:text="Thêm t.dõi" />
+ 
+    <!--  Thông tin ngoài -->
+    <Button
+        android:id="@+id/extra_data"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/extra_data"
+        android:text="T.tin ngoài" />
+ 
+    <!--  Tra cứu -->
+    <Button
+        android:id="@+id/search"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/search"
+        android:text="Tra cứu" />
+ 
+    <!--  Tài khoản -->
+    <Button
+        android:id="@+id/user"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/user"
+        android:text="Tài khoản" />    
+</mypackage.SceneManager.DashboardLayout>

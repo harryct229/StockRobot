@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mypackage.SceneManager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/ic_launcher" >
+        <activity android:name=".LogInActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Menu Screen -->
+        <activity android:name=".MenuActivity" >
+        </activity>
+
+        <!-- Register Screen -->
+        <activity android:name=".RegisterActivity" >
+        </activity>
+
+        <!-- TabLayout Screen -->
+        <activity android:name=".TabLayoutActivity" >
+        </activity>
+        
+        <!-- Day list Screen -->
+        <activity android:name=".DayListActivity" >
+        </activity>
+        
+        <!-- Month list Screen -->
+        <activity android:name=".MonthListActivity" >
+        </activity>
+        
+        <!-- Year list Screen -->
+        <activity android:name=".YearListActivity" >
+        </activity>
+        
+    </application>
+
+</manifest>
