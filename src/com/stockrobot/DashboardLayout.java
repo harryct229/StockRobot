@@ -1,4 +1,4 @@
-package mypackage.SceneManager;
+package com.stockrobot;
 
 import android.content.Context;
 import android.util.AttributeSet;

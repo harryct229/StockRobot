@@ -1,5 +1,6 @@
-package mypackage.SceneManager;
+package com.stockrobot;
 
+import mypackage.SceneManager.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;

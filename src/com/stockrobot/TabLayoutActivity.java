@@ -1,5 +1,6 @@
-package mypackage.SceneManager;
+package com.stockrobot;
 
+import mypackage.SceneManager.R;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;

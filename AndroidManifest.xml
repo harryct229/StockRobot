@@ -36,7 +36,7 @@
         </activity>
         
         <!-- Year list Screen -->
-        <activity android:name=".YearListActivity" >
+        <activity android:name="com.stockrobot.YearListActivity" >
         </activity>
         
     </application>
